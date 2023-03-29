@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import ni.edu.uca.myuca.databinding.FragmentCoordinadorBinding
-import ni.edu.uca.myuca.databinding.FragmentMenuBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
