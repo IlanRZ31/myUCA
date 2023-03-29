@@ -19,23 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val nombresEditText = binding.etNombres
-        val apellidosEditText = binding.etApellidos
-        val carreraEditText = binding.etCarrera
-        val anioEditText = binding.etAnio
 
-
-        val enviarButton = binding.button
-
-        // Set a click listener on the "Enviar" button
-        enviarButton.setOnClickListener {
-            val nombres = nombresEditText.text.toString()
-            val apellidos = apellidosEditText.text.toString()
-            val carrera = carreraEditText.text.toString()
-            val anio = anioEditText.text.toString().toInt()
-
-
-        }
     }
 
 
